@@ -1,5 +1,5 @@
-const openIconMenu = document.querySelector(".fa-bars");
-const closeIconMenu = document.querySelector(".fa-times");
+const openIconMenu = document.querySelector("header div>a");
+const closeIconMenu = document.querySelector(".close");
 const hiddenMenu = document.querySelector(".hamburger-menu");
 
 console.log(openIconMenu.className);
